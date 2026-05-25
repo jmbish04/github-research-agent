@@ -33,11 +33,18 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "core-template-cfw-assets-astro-shadcn",
-      "database_id": "d126139f-6f57-49d2-bbc4-d20bbd46bbf4",
-      "preview_database_id": "d126139f-6f57-49d2-bbc4-d20bbd46bbf4",
+      "database_name": "github-research-agent",
+      "database_id": "f3654dd9-e220-4edf-81a3-ba5c842d697b",
       "migrations_dir": "drizzle",
+      "remote": true
     },
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "df06fd58d0894670837aa69ee0401aa3",
+      "remote": true
+    }
   ],
   "secrets_store_secrets": [
     {
